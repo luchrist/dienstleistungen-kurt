@@ -77,6 +77,7 @@ export function Hero() {
   }, []);
 
   const whatsappHref = buildWhatsappHref(galabau.serviceArea.centerCity);
+  const [claimTitle, claimSubline] = galabau.claim.split(" - ");
 
   return (
     <section className="relative h-[100dvh] min-h-[560px] overflow-hidden bg-ink">
@@ -128,7 +129,12 @@ export function Hero() {
         <div className="mx-auto w-full max-w-[1400px] px-6 pb-16 md:px-10 md:pb-24 lg:px-14">
           <div className="max-w-2xl">
             <h1 className="font-display text-[36px] leading-[0.98] tracking-tight text-bone drop-shadow-lg sm:text-[46px] md:text-[62px] lg:text-[74px]">
-              {galabau.claim}
+              {claimTitle}
+              {claimSubline ? (
+                <span className="mt-3 block text-[18px] leading-snug sm:text-[22px] md:text-[28px] lg:text-[32px]">
+                  {claimSubline}
+                </span>
+              ) : null}
             </h1>
 
             <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center sm:gap-4">
