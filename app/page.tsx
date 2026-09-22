@@ -4,7 +4,6 @@ import { Leistungen } from "@/components/Leistungen";
 import { Referenzen } from "@/components/Referenzen";
 import { Arbeitsweise } from "@/components/Arbeitsweise";
 import { Einsatzgebiet } from "@/components/Einsatzgebiet";
-import { Galerie } from "@/components/Galerie";
 import { RecruitingTeaser } from "@/components/RecruitingTeaser";
 import { WhatsappFloat } from "@/components/WhatsappFloat";
 import { Footer } from "@/components/Footer";
@@ -18,7 +17,6 @@ export default function Page() {
       <Referenzen />
       <Arbeitsweise />
       <Einsatzgebiet />
-      <Galerie />
       <RecruitingTeaser />
       <Footer />
       <WhatsappFloat />

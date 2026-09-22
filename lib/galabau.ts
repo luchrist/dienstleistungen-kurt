@@ -107,7 +107,7 @@ export const galabau: GalabauConfig = {
     "teamSize": "",
     "machines": ""
   },
-  "claim": "Garten, Pflaster und Baumpflege in Forst.",
+  "claim": "Dienstleistungen Kurt - Garten- und Landschaftsbau in Forst",
   "heroSubline": "Gartengestaltung, Pflasterarbeiten, Baumpflege und Gartenpflege aus einem Betrieb. Einsatzgebiet: Forst, Bruchsal, Karlsruhe und rund 40 km Umkreis.",
   "services": [
     {
