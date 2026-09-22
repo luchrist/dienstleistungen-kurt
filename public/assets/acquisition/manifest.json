@@ -1,0 +1,29 @@
+[
+  {
+    "originalFile": "scraped-01.jpg",
+    "file": "photos/_skipped/blick-auf-see-durch-baume-01.jpg",
+    "category": "skip",
+    "quality": "high",
+    "subject": "Blick auf See durch Bäume",
+    "subjectSlug": "blick-auf-see-durch-baume",
+    "description": "Ein sonniger Blick auf einen See, umrahmt von grünen Bäumen und Büschen."
+  },
+  {
+    "originalFile": "api-01.jpg",
+    "file": "photos/projekte/seeufer-mit-grunflache-und-sandstrand-01.jpg",
+    "category": "projekt",
+    "quality": "high",
+    "subject": "Seeufer mit Grünfläche und Sandstrand",
+    "subjectSlug": "seeufer-mit-grunflache-und-sandstrand",
+    "description": "Eine idyllische Ansicht eines Seeufers mit einer Grünfläche und einem Sandstrand, umgeben von Bäumen und Schilf."
+  },
+  {
+    "originalFile": "api-02.jpg",
+    "file": "photos/_skipped/firmenlogo-kurt-01.jpg",
+    "category": "skip",
+    "quality": "high",
+    "subject": "Firmenlogo Kurt",
+    "subjectSlug": "firmenlogo-kurt",
+    "description": "Das Logo der GaLaBau-Firma Kurt mit einem Haus-Symbol und dem Slogan 'Rund um Haus und Garten'."
+  }
+]
